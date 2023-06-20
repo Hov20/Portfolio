@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-image: url(./background-2.jpeg);
+    background-repeat: no-repeat;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
+.myInf {
+    height: 550px;
+    color: rgb(204, 202, 202);
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 25px;
+    margin-left: 100px;
+}
+
+.container {
+    height: 550px;
+    display: flex;
+    text-align: center;
+}
+
+.hobcls {
+    margin: 100px 0 0 100px;
+    color: aliceblue;
+}
+
+.myInf > h1, h2, h3 {
+    margin-bottom: 15px;
+}
+
+.projstl {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.child {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 17px;
+}
+
+a {
+    font-size: 24px;
+    color: aliceblue;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+li {
+    margin-top: 5px;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    background-size: 100%;
+    background-position: center;
+    border-radius: 15px;
+}
